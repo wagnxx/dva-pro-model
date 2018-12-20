@@ -1,0 +1,12 @@
+{
+  "env": {
+    "development": {
+      "proxy": {
+        "/api": {
+          "target": "https://api.tuchong.com/feed-app",
+          "changeOrigin": true,
+        }
+      }
+    }
+  }
+}
